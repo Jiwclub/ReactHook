@@ -1,26 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+// import {UseStateDemo1} from './components/UseStateDemo1'
+// import {UseStateDemo2} from './components/UseStateDemo2'
+// import {UseStateDemo3} from './components/UseStateDemo3'
+// import {UseEffectDemo1} from './components/UseEffectDemo1'
+// import {UseEffectDemo2} from './components/UseEffectDemo2'
+import {UseEffectDemo3} from './components/UseEffectDemo3'
 
-function App() {
+export const App = () => {
+  
+  const [isShow, setisShow] = React.useState(true)
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{textAlign:"center"}}>
+      {/* <UseStateDemo1></UseStateDemo1> */}
+     {/* <UseStateDemo2 /> */}
+     {/* <UseStateDemo3 /> */}
+     {/* <UseEffectDemo1 /> */}
+    {/* {isShow && <UseEffectDemo2 />}
+    <button onClick={()=>setisShow(false)}>Hide</button> */}
+    <UseEffectDemo3 />
     </div>
-  );
+  )
 }
-
-export default App;
