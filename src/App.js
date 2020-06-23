@@ -4,7 +4,9 @@ import React from 'react'
 // import {UseStateDemo3} from './components/UseStateDemo3'
 // import {UseEffectDemo1} from './components/UseEffectDemo1'
 // import {UseEffectDemo2} from './components/UseEffectDemo2'
-import {UseEffectDemo3} from './components/UseEffectDemo3'
+// import {UseEffectDemo3} from './components/UseEffectDemo3'
+// import {UseEffectDemo4} from './components/UseEffectDemo4'
+
 
 export const App = () => {
   
@@ -17,7 +19,9 @@ export const App = () => {
      {/* <UseEffectDemo1 /> */}
     {/* {isShow && <UseEffectDemo2 />}
     <button onClick={()=>setisShow(false)}>Hide</button> */}
-    <UseEffectDemo3 />
+    {/* <UseEffectDemo3 /> */}
+    {/* <UseEffectDemo4 /> */}
+    
     </div>
   )
 }
